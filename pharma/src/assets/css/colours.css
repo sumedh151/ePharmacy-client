@@ -1,0 +1,19 @@
+:root {
+    --main-bg-color: white;
+    --peach: #F8D0A3;
+    --navy-blue: #202B42;
+    --mint-green: #D5ECDD;
+    --blue: #98B4E8;
+    --shadow: rgb(185, 184, 184);
+    --input-border: #acaaaa;
+    --main-text-color: black; 
+    --step-bg-wait: #E5E5E5;
+    --step-bg-process: #DAE7FF;
+    --success-green: #D9FFB4;
+    --drug-details-bg: #FFFFD9;
+    --drug-image-bg: #F8D0A3;
+    --dark-gray: #484747;
+    --input-bg: #F8F8F8;
+    --baby-blue: #98B4E8;
+    --drug-details-bg-darker: rgb(253, 246, 215);
+}

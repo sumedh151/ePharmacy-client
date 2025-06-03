@@ -1,0 +1,45 @@
+@import url('../colours.css');
+
+.semi-circle-peach::after {
+    content: "";
+    width: 50vw;
+    height: 50vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -30vw;
+    border-radius: 50%;
+    margin: auto;
+    background-color: var(--peach);
+    z-index: -1;
+}
+
+.semi-circle-peach {
+    height: 20vw!important;
+}
+
+.semi-circle-peach > h1 {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 10vh;
+}
+
+@media (max-width: 991.98px) {
+    .semi-circle-peach::after {
+        width: 100vw;
+        height: 100vw;
+        top: -50vw;
+    }
+
+    .semi-circle-peach {
+        height: 45vw!important;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .semi-circle-peach > h1 {
+        top: 7vh;
+    }
+ }
