@@ -1,0 +1,44 @@
+@import url("./colours.css");
+
+.btn-success {
+    background-color: var(--mint-green)!important;
+    border-color: var(--mint-green)!important;
+    color: black!important;
+}
+
+.btn-success:hover {
+    background-color: var(--dark-mint-green)!important;
+    border-color: var(--mint-green)!important;
+    color: black!important;
+}
+
+.btn-primary {
+    background-color: var(--navy-blue)!important;
+    border-color: var(--navy-blue)!important;
+    color: white!important;
+}
+
+.btn-primary:hover {
+    background-color: var(--baby-blue)!important;
+}
+
+.bg-navy-blue {
+    background-color: var(--navy-blue)!important;
+}
+
+.bg-baby-blue {
+    background-color: var(--baby-blue)!important;
+}
+
+#wrapper {
+    padding-top: 3rem;
+}
+
+.min-h-50 {
+    min-height: 50%!important;
+}
+
+.height-inherit {
+    min-height: inherit;
+}
+

@@ -1,0 +1,5 @@
+@import url("../colours.css");
+
+.bg-register-image {
+    background-color: var(--baby-blue)!important;
+}

@@ -1,0 +1,5 @@
+@import url("../colours.css");
+
+.bg-login-image {
+    background-color: var(--mint-green);
+}
